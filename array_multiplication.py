@@ -1,8 +1,10 @@
+#my solution:
 import math
 def grow(arr):
     result = math.prod(arr)
     return result
 
+#best voted solutions:
 from functools import reduce
 
 def grow(arr):
