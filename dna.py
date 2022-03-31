@@ -1,10 +1,9 @@
-#def DNA_strand(dna):
-    #return dna.translate(string.maketrans("ATCG","TAGC")) #??
-
+#my solution:
 pairs = {'A':'T','T':'A','C':'G','G':'C'}
 def DNA_strand(dna):
     return ''.join([pairs[x] for x in dna])
 
+#best voted solutions:
 def DNA_strand(dna):
     # code here
     dnaComplement=""
