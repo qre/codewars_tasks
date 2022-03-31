@@ -1,3 +1,4 @@
+#my solution:
 def likes(names):
     if names == []:
         return "no one likes this"
@@ -10,6 +11,7 @@ def likes(names):
     if len(names) > 3:
         return f"{names[0]}, {names[1]} and {len(names)-2} others like this"
 
+    #best voted solutions:
 def likes(names):
     n = len(names)
     return {
